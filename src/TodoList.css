@@ -1,0 +1,55 @@
+.TodoList {
+    width: 100%;
+}
+
+.Todo-items {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 47px;
+    right: 35px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* TODO: Finish setting up media query sizing */
+
+@media (min-width:360px) {
+    .TodoList {
+        background-image: url("assets/legal-pad-sm.png");
+        width: 250px;
+        min-height: 320px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .TodoList {
+        background-image: url("assets/legal-pad-md.png");
+        width: 586px;
+        min-height: 760px;
+    }
+}
+
+@media(min-width:1024px) {
+    .TodoList {
+        background-image: url("assets/legal-pad-lg.png");
+        width: 741px;
+        min-height: 960px;
+    }
+}
+
+@media(min-width:1200px) {
+    .TodoList {
+        background-image: url("assets/legal-pad.png");
+        width: 989px;
+        min-height: 1280px;
+    }
+
+    li {
+        margin-top: 2.05px;
+    }
+}

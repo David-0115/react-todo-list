@@ -1,0 +1,40 @@
+.Todo-item {
+    display: inline-block;
+    text-align: left;
+    overflow-wrap: break-word;
+}
+
+.Todo {
+    margin-left: 3.5em;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+
+.trash {
+    color: red;
+    display: inline-block;
+}
+
+@media (min-width:360px) {
+    .Todo-item {
+        width: 225px;
+    }
+}
+
+@media (min-width:768px) {
+    .Todo-item {
+        width: 575px;
+    }
+}
+
+@media(min-width:1024px) {
+    .Todo-item {
+        width: 730px;
+    }
+}
+
+@media(min-width:1200px) {
+    .Todo-item {
+        width: 975px;
+    }
+}
